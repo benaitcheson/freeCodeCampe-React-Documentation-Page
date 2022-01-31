@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# freeCodeCamp-Documentation-Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Third of many freeCodeCamp Projects to build. This one I build in React.
 
-## Available Scripts
+This is the Readme for my second freeCodeCamp project.
 
-In the project directory, you can run:
+You can view the live demo on [Github pages here](). These are the requirements for this project:
 
-### `npm start`
+- [ ] User Story #1: I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [ ] User Story #2: Within the #main-doc element, I can see several section elements, each with a class of main-section. There should be a minimum of 5.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [ ] User Story #3: The first element within each .main-section should be a header element which contains text that describes the topic of that section.
 
-### `npm test`
+- [ ] User Story #4: Each section element with the class of main-section should also have an id that corresponds with the text of each header contained within it. Any spaces should be replaced with underscores (e.g. The section that contains the header "JavaScript and Java" should have a corresponding id="JavaScript_and_Java").
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ ] User Story #5: The .main-section elements should contain at least 10 p elements total (not each).
 
-### `npm run build`
+- [ ] User Story #6: The .main-section elements should contain at least 5 code elements total (not each).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ ] User Story #7: The .main-section elements should contain at least 5 li items total (not each).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [ ] User Story #8: I can see a nav element with a corresponding id="navbar".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ ] User Story #9: The navbar element should contain one header element which contains text that describes the topic of the technical documentation.
 
-### `npm run eject`
+- [ ] User Story #10: Additionally, the navbar should contain link (a) elements with the class of nav-link. There should be one for every element with the class main-section.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [ ] User Story #11: The header element in the navbar must come before any link (a) elements in the navbar.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [ ] User Story #12: Each element with the class of nav-link should contain text that corresponds to the header text within each section (e.g. if you have a "Hello world" section/header, your navbar should have an element which contains the text "Hello world").
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [ ] User Story #13: When I click on a navbar element, the page should navigate to the corresponding section of the main-doc element (e.g. If I click on a nav-link element that contains the text "Hello world", the page navigates to a section element that has that id and contains the corresponding header.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [ ] User Story #14: On regular sized devices (laptops, desktops), the element with id="navbar" should be shown on the left side of the screen and should always be visible to the user.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] User Story #15: My Technical Documentation page should use at least one media query.
