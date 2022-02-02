@@ -2,7 +2,7 @@
 function App() {
   return (
     <div className="App">
-      This is a div
+      This is the main App component.
     </div>
   );
 }
